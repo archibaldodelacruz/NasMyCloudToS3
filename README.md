@@ -16,14 +16,10 @@ This script uses the binary called *s3* which is included in the NAS EX4100 firm
               
 3. Start the script with this command:
         
-		*python nastos3 -i file.conf -l /path/to/log/mylog.log*
+		python nastos3.py -i file.conf -l /path/to/log/mylog.log
  
- 	where:
-            **_-i_** Name of the .conf file 
-            **_-l_** Path to the log file. Can be only the name of the log, in which case the log file are stored in the actual folder.
+	where:
+    	**_-i_** Name of the .conf file. 
+    	**_-l_** Path to the log file. Can be only the name of the log, in which case the log file are stored in the actual folder.
             
 4. And that is all.
-
-
-
-
